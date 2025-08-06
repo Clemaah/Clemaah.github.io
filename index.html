@@ -1,2 +1,65 @@
-# Clemaah.github.io
-My portfolio and CV website.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Clément Cayèré</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/navigation.css"/>
+    <link rel="stylesheet" href="styles/content.css"/>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/108defb4df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <button class="nav prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
+    <button class="nav next"><i class="fa-solid fa-circle-chevron-right"></i></button>
+
+    <div id="carousel">
+        <section class="slide">
+            <aside>
+                <figure>
+                    <img src="src/images/me.jpg" alt="Picture of me" />
+                </figure>
+            </aside>
+            <article>
+                <h2>About Me</h2>
+                <p>I have always been fascinated by computer science, so in middle school I started teaching myself how to develop websites. This passion led me to software development, and eventually to video games where I just graduated with a master’s degree with High Distinction and received the Best Programmer award.</p>
+                <p>I’ve worked on a variety of team projects (with 2 to 12 people) during my studies and using five times Unreal Engine and two times Unity. Often the only developer on these projects, I’ve become highly versatile, comfortable with gameplay programming, UI integration, and even creating internal tools for game designers and artists.</p>
+                <p>Communication is key, so I always search to deeply understand the systems that need to be implemented before getting started. This allows me to design clear and user-friendly systems for the players but also for my teammates. Thanks to the many playtests I’ve conducted at conventions, I always aim to make the mechanics I develop as intuitive and engaging as possible.</p>
+                <p>Finally, I always try to push the boundaries of my comfort zone. For instance, by helping tech artists with complex materials (VAT, dynamic materials, etc.) or more advanced particle effects.</p>
+
+                <ul id="contact">
+                      <li>
+                          <a href="mailto:clement.cayere@gmail.com" title="Mail"><i class="fa-solid fa-envelope"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://www.linkedin.com/in/clement-cayere/" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/Clemaah" title="Github"><i class="fa-brands fa-github"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://clemah.itch.io/" title="Github"><i class="fa-brands fa-itch-io"></i></a>
+                      </li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="menu">
+        <ul>
+            <li data-index="1" class="active"><img src="src/icons/profil.svg" alt="About Me" /></li>
+        </ul>
+    </nav>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <a href="https://www.flaticon.com/free-icons/catapult" title="catapult icons">Catapult icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/rope" title="rope icons">Rope icons created by narak0rn - Flaticon</a>
+</body>
+</html>

@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Needle Eye",
+        "tags": ["Unreal Engine"],
+        "description": [
+            "Needle Eye is a cozy adventure game based on thread physics, set in a sleepy and aging village, long forgotten. The player's goal is to bring this town back to life in chaotic ways using a magical needle that allow to link anything in the game : objects, environments, NPCs, creatures and the character.",
+            "This was my final year project (TFE), where I served as the lead developer. The game won the 'Best TFE Game' award and was selected for the Belgian Games Awards."
+        ],
+        "src_type": "youtube",
+        "src_link": "https://www.youtube.com/embed/tmiN8HGknvE?si=fYkpqLi-yS_Ymrnt",
+        "src_alt": "Needle Eye Trailer",
+        "icon_link": "src/icons/NeedleEye.png",
+        "icon_alt": "Needle Eye"
+    },
+    {
+        "title": "Rope Simulation",
+        "tags": ["Unreal Engine"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/RopeSimulation.png",
+        "icon_alt": "Rope Simulation"
+    },
+    {
+        "title": "Already Dead",
+        "tags": ["Unreal Engine"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/AlreadyDead.svg",
+        "icon_alt": "Already Dead"
+    },
+    {
+        "title": "Street Murder",
+        "tags": ["Unreal Engine"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/StreetMurder.png",
+        "icon_alt": "Street Murder"
+    },
+    {
+        "title": "Twisted Wishes",
+        "tags": ["Unity"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/TwistedWishes.png",
+        "icon_alt": "Twisted Wishes"
+    },
+    {
+        "title": "Mob Survivor",
+        "tags": ["Unreal Engine"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/MobSurvivor.png",
+        "icon_alt": "Mob Survivor"
+    },
+    {
+        "title": "Catapultia",
+        "tags": ["Unity"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/Catapultia.png",
+        "icon_alt": "Catapultia"
+    },
+    {
+        "title": "Gamble Gang",
+        "tags": [],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/GambleGang.png",
+        "icon_alt": "Gamble Gang"
+    },
+    {
+        "title": "Can't Stop - Unreal Adaptation",
+        "tags": ["Unreal Engine"],
+        "description": [""],
+        "src_type": "image",
+        "src_link": "src/",
+        "src_alt": "",
+        "icon_link": "src/icons/CantStop.jpg",
+        "icon_alt": "Can't Stop"
+    }
+]
