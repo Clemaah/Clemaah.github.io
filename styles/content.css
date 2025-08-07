@@ -75,6 +75,12 @@ h2 {
     text-transform: uppercase;
 }
 
+.projectInfos {
+    font-style: italic;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
 article p {
     margin-top: 2vh;
 }
@@ -99,4 +105,19 @@ article p {
 
 #contact li:hover {
     transform: scale(1.1);
+}
+
+
+
+/* ---------- Responsive Design ----------- */
+@media (max-width: 1000px) {
+    body, html {
+        overflow: visible;
+    }
+}
+
+@media (max-width: 650px) {
+    .slide {
+        flex-direction: column;
+    }
 }

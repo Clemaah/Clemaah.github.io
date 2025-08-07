@@ -33,6 +33,11 @@ fetch('projects.json')
             <aside>${figure.innerHTML}</aside>
             <article>
                 <h2>${project.title}</h2>
+                <ul class="projectInfos">
+                    <li>Engine : ${project.type}</li>
+                    <li>Time spent : ${project.duration}</li>
+                    <li>Team : ${project.team}</li>
+                </ul>
                 <p>${project.description.join("</p><p>")}</p>
             </article>
         `;
