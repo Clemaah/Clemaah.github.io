@@ -15,6 +15,18 @@
         "icon_alt": "Needle Eye"
     },
     {
+        "title": "Twisted Wishes",
+        "type": ["Unity"],
+        "team": "5 persons",
+        "duration": "1 week",
+        "description": ["Twisted Wishes is a fast-paced roguelike created for Brackeys Game Jam 2025. Each level offers a choice between three powerful wishes, which can significantly boost your abilities but can also lead to serious drawbacks. ", "The game was developed in one week on Unity, with a strong focus on building highly generic systems to support a wide range of content and enhance replayability."],
+        "src_type": "image",
+        "src_link": "src/images/TwistedWishes.gif",
+        "src_alt": "",
+        "icon_link": "src/icons/TwistedWishes.png",
+        "icon_alt": "Twisted Wishes"
+    },
+    {
         "title": "Already Dead",
         "type": ["Unreal Engine"],
         "team": "2 persons",
@@ -31,24 +43,13 @@
         "type": ["Unreal Engine"],
         "team": "6 persons",
         "duration": "48 hours",
-        "description": ["Street Murder is a stealth-action game created for the KISS Game Jam, in which you play as a serial killer who must deceive civilians and evade the police night after night to commit as many crimes as possible. The gameplay focuses on stealth, sound manipulation, and light management to create confusion and extend your freedom. During this project, I explored AI behavior in depth and gained hands-on experience with Unreal Engine's AI framework."],
+        "description": ["Street Murder is a stealth-action game created for the KISS Game Jam, in which you play as a serial killer who must deceive civilians and evade the police night after night to commit as many crimes as possible. The gameplay focuses on stealth, sound manipulation, and light management to create confusion and extend your freedom.",
+        "During this project, I explored AI behavior in depth and gained hands-on experience with Unreal Engine's AI framework."],
         "src_type": "image",
-        "src_link": "src/",
-        "src_alt": "",
+        "src_link": "src/images/StreetMurder.gif",
+        "src_alt": "Street Murder gameplay in an animated image.",
         "icon_link": "src/icons/StreetMurder.png",
         "icon_alt": "Street Murder"
-    },
-    {
-        "title": "Twisted Wishes",
-        "type": ["Unity"],
-        "team": "5 persons",
-        "duration": "1 week",
-        "description": ["Twisted Wishes is a fast-paced roguelike created for Brackeys Game Jam 2025. Each level offers a choice between three powerful wishes, which can significantly boost your abilities but can also lead to serious drawbacks. ", "The game was developed in one week on Unity, with a strong focus on building highly generic systems to support a wide range of content and enhance replayability."],
-        "src_type": "image",
-        "src_link": "src/images/TwistedWishes.gif",
-        "src_alt": "",
-        "icon_link": "src/icons/TwistedWishes.png",
-        "icon_alt": "Twisted Wishes"
     },
     {
         "title": "Mob Survivor",

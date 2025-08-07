@@ -112,12 +112,23 @@ article p {
 /* ---------- Responsive Design ----------- */
 @media (max-width: 1000px) {
     body, html {
-        overflow: visible;
+        overflow-y: visible;
     }
-}
 
-@media (max-width: 650px) {
-    .slide {
+    .slide, aside, article {
+        padding: 0;
+        margin: 0;
         flex-direction: column;
+    }
+
+    aside, article, iframe {
+        width: 100%;
+        max-width: 100%;
+        max-height: auto;
+        height: auto;
+    }
+
+    aside {
+        margin-bottom: 5vh;
     }
 }

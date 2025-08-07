@@ -15,6 +15,7 @@ body.grabbing {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2vw;
     padding: 7vh 5vw 5vh;
 }
