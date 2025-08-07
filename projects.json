@@ -15,18 +15,6 @@
         "icon_alt": "Needle Eye"
     },
     {
-        "title": "Rope Simulation",
-        "type": ["Unreal Engine"],
-        "team": "1 person",
-        "duration": "1 year",
-        "description": [""],
-        "src_type": "image",
-        "src_link": "src/images/Memoire.png",
-        "src_alt": "Cover page of my thesis on Rope Simulation",
-        "icon_link": "src/icons/RopeSimulation.png",
-        "icon_alt": "Rope Simulation"
-    },
-    {
         "title": "Already Dead",
         "type": ["Unreal Engine"],
         "team": "2 persons",
@@ -75,6 +63,18 @@
         "icon_alt": "Mob Survivor"
     },
     {
+        "title": "Rope Simulation",
+        "type": ["Unreal Engine"],
+        "team": "1 person",
+        "duration": "1 year",
+        "description": ["For my final year project, I focused on the realistic simulation of a rope. I chose this topic for my thesis, which led me to dive deep into the inner workings of physics engines like Unreal’s. Through extensive research and study of existing literature, I gained a strong understanding of the subject and am now developing a fully custom physics system in my free time."],
+        "src_type": "image",
+        "src_link": "src/images/Memoire.png",
+        "src_alt": "Cover page of my thesis on Rope Simulation",
+        "icon_link": "src/icons/RopeSimulation.png",
+        "icon_alt": "Rope Simulation"
+    },
+    {
         "title": "Catapultia",
         "type": ["Unity"],
         "team": "3 persons",
@@ -97,17 +97,5 @@
         "src_alt": "Gamble Gang Presentation in French",
         "icon_link": "src/icons/GambleGang.png",
         "icon_alt": "Gamble Gang"
-    },
-    {
-        "title": "Can't Stop - Unreal Adaptation",
-        "type": ["Unreal Engine"],
-        "team": "1 person",
-        "duration": "1 day",
-        "description": ["This project is an adaptation of the table game 'Can't Stop' "],
-        "src_type": "image",
-        "src_link": "src/images/CantStop.gif",
-        "src_alt": "Can't Stop Integration",
-        "icon_link": "src/icons/CantStop.jpg",
-        "icon_alt": "Can't Stop"
     }
 ]
