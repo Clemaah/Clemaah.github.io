@@ -12,12 +12,12 @@ h1, h2, h3, h4, h5, h6, nav {
 
 body, html {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
 body {
-    background: #eee;
+    background: url("../src/images/Background.png") center / cover no-repeat;
     color: #111;
 }
 
@@ -30,12 +30,14 @@ body {
 
 .slide {
     width: 100vw;
-    min-height: 100%;
+    height: 80vh;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10vh 10vw 0vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 aside {
@@ -46,9 +48,8 @@ aside {
 
 figure {
     width: 100%;
-    height: 100%;
+    height: 95%;
     border-radius: 5px;
-    overflow: hidden;
     text-align: center;
 }
 aside img, aside iframe {
@@ -111,24 +112,18 @@ article p {
 
 /* ---------- Responsive Design ----------- */
 @media (max-width: 1000px) {
-    body, html {
-        overflow-y: visible;
-    }
-
-    .slide, aside, article {
-        padding: 0;
-        margin: 0;
+    .slide {
+        padding: 5vw 5vh;
         flex-direction: column;
+        justify-content: start;
     }
 
     aside, article, iframe {
         width: 100%;
         max-width: 100%;
-        max-height: auto;
-        height: auto;
     }
 
     aside {
-        margin-bottom: 5vh;
+        margin: 0 0 5vh;
     }
 }

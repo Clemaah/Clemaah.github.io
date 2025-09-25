@@ -53,20 +53,28 @@ body.grabbing {
 .nav {
     position: absolute;
     top: 50%;
-    background: none;
+    background-color: rgb(220, 220, 220) content-box;
+    border-radius: 100%;
     border: none;
-    color: rgba(25, 25, 25, 0.8);
+    color: rgba(50, 50, 50);
     transform: translate(0%, -50%);
     font-size: 2rem;
     cursor: pointer;
-    padding: 2vh 2vw;
+    margin: 2vh 2vw;
     z-index: 10;
-    transition: background 0.3s;
+    transition: 0.2s linear color;
+}
+
+.nav i {
+    transform: scale(1.3);
 }
 
 .nav:hover {
     color: rgba(25, 25, 25, 1);
-    transition: 0.2s linear color;
+}
+
+.nav:active {
+    margin-top: 2.1vh;
 }
 
 .nav.prev {
