@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Clément Cayèré</title>
+    <title>Clément Cayèré - Portfolio</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/navigation.css"/>
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <button class="nav prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
     <button class="nav next"><i class="fa-solid fa-circle-chevron-right"></i></button>
 
@@ -22,7 +21,7 @@
         <section class="slide">
             <aside>
                 <figure>
-                    <img src="src/images/me.jpg" alt="Picture of me" />
+                    <img draggable="false" src="src/images/me.jpg" alt="Picture of me" />
                 </figure>
             </aside>
             <article>
@@ -32,19 +31,32 @@
                 <p>Communication is key, so I always search to deeply understand the systems that need to be implemented before getting started. This allows me to design clear and user-friendly systems for the players but also for my teammates. Thanks to the many playtests I’ve conducted at conventions, I always aim to make the mechanics I develop as intuitive and engaging as possible.</p>
                 <p>Finally, I always try to push the boundaries of my comfort zone. For instance, by helping tech artists with complex materials (VAT, dynamic materials, etc.) or more advanced particle effects.</p>
 
-                <ul id="contact">
-                      <li>
-                          <a href="mailto:clement.cayere@gmail.com" title="Mail"><i class="fa-solid fa-envelope"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://www.linkedin.com/in/clement-cayere/" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://github.com/Clemaah" title="Github"><i class="fa-brands fa-github"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://clemah.itch.io/" title="Github"><i class="fa-brands fa-itch-io"></i></a>
-                      </li>
+                <ul class="links">
+                    <li>
+                        <a class="iconLink" draggable="false" href="mailto:clement.cayere@gmail.com" target="_blank" title="Mail">
+                            <span class="icon mail"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="iconLink" draggable="false" href="https://www.linkedin.com/in/clement-cayere/" target="_blank" title="LinkedIn">
+                            <span class="icon linkedin"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="iconLink" draggable="false" href="https://github.com/Clemaah" target="_blank" title="GitHub">
+                            <span class="icon github"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="iconLink" draggable="false" href="https://clemah.itch.io/" target="_blank" title="Itch.io">
+                            <span class="icon itch"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="iconLink" draggable="false" href="src/ClementCayere-Resume.pdf" target="_blank" title="Resume">
+                            <span class="icon resume"></span>
+                        </a>
+                    </li>
                 </ul>
             </article>
         </section>
@@ -53,7 +65,7 @@
     <!-- Navigation -->
     <nav id="menu">
         <ul>
-            <li data-index="1" class="active"><img src="src/icons/profil.svg" alt="About Me" /></li>
+            <li data-index="1" class="active"><img draggable="false" src="src/icons/profil.jpg" alt="About Me" /></li>
         </ul>
     </nav>
 

@@ -1,102 +1,136 @@
 [
     {
         "title": "Needle Eye",
-        "type": ["Unreal Engine"],
-        "team": "8 persons",
-        "duration": "1 year",
-        "description": [
-            "Needle Eye is a cozy adventure game based on thread physics, set in a sleepy and aging village, long forgotten. The player's goal is to bring this town back to life in chaotic ways using a magical needle that allow to link anything in the game : objects, environments, NPCs, creatures and the character.",
-            "This was my final year project (TFE), where I served as the lead developer. The game won the 'Best TFE Game' award and was selected for the Belgian Games Awards."
-        ],
+        "type": "unreal",
+        "state": "Production",
+        "duration": "2 years",
+        "description": {
+            "pitch": "Needle Eye is a cozy adventure game based on thread physics, set in a sleepy and aging village, long forgotten. The player's goal is to bring this town back to life in chaotic fashion using a magical needle that allow him to link anything in the game : objects, environments, NPCs, creatures and his own character.",
+            "context": "This was my final year project. We built a complete game from scratch with a full team of designers, artists, and developers. The game won the Best TFE Game award and was nominated for the Belgian Game Awards. We’re still developing it for release on Steam, and possibly on Switch.",
+            "work": "<strong>Lead Developer</strong> -  I designed the core architecture and developed several core systems (character abilities, progression, save, interaction, quest, UI, etc.), as well as the main feature: the rope physics. I also work closely with the game designer to keep every mechanic as intuitive and fun as possible."
+        },
         "src_type": "youtube",
-        "src_link": "https://www.youtube.com/embed/tmiN8HGknvE?si=fYkpqLi-yS_Ymrnt",
+        "src_link": "https://www.youtube-nocookie.com/embed/8Ii15QclY2c",
         "src_alt": "Needle Eye Trailer",
         "icon_link": "src/icons/NeedleEye.png",
-        "icon_alt": "Needle Eye"
+        "icon_alt": "Needle Eye",
+        "links": {
+            "itch": "https://needle-eye.itch.io/needle-eye",
+            "discord": "https://discord.gg/bPbKwvDsVH",
+            "download": "https://www.dropbox.com/scl/fi/0st1snax6bbr3nrd0ftcs/NeedleEye_V0.40.rar?rlkey=2d6vpm7wty147ntlt8nhxjov0&e=1&st=627j1vse&dl=0"
+        }
+    },
+    {
+        "title": "Demonium",
+        "type": "unity",
+        "state": "Conception",
+        "duration": "1 month",
+        "description": {
+            "pitch": "In this adventure survival game in top-down view, players must complete short exorcism missions where they identify and banish quirky entities using limited, improvised tools. Solo or in co-op, they experiment with objects, adapt their rituals to each situation, and coordinate through light physics and cooperative problem-solving.",
+            "context": "We’ve just started the concept phase of this project for the Game CreaLab, taking place in October 2025. Our small team is made up of one artist, one game designer, one other developer and me.",
+            "work": "<strong>Lead Developer</strong> - I’m primarily responsible for gameplay development, including player actions, AI, interactions, and physics systems. I also create tools to streamline the workflow for the game designer and artist. In addition, I focus on establishing a clean and scalable codebase and project architecture to ensure faster progress during development."
+        },
+        "src_type": "image",
+        "src_link": "src/images/Demonium.png",
+        "src_alt": "Demonium gameplay in an image",
+        "icon_link": "src/icons/Demonium.png",
+        "icon_alt": "Catapultia",
+        "links": {
+        }
     },
     {
         "title": "Twisted Wishes",
-        "type": ["Unity"],
-        "team": "5 persons",
+        "type": "unity",
+        "state": "Game Jam",
         "duration": "1 week",
-        "description": ["Twisted Wishes is a fast-paced roguelike created for Brackeys Game Jam 2025. Each level offers a choice between three powerful wishes, which can significantly boost your abilities but can also lead to serious drawbacks. ", "The game was developed in one week on Unity, with a strong focus on building highly generic systems to support a wide range of content and enhance replayability."],
+        "description": {
+            "pitch": "In this fast-paced roguelike adventure, the player must cleanse the alleys of his city with the help of a powerful yet deceitful genie who grants great wishes at the cost of some drawbacks.",
+            "context": "This game was developed in one week for the Brackeys Game Jam 2025 using Unity. Our team consisted of one game developer, two tech artists, one other developer and me",
+            "work": "<strong>Gameplay & Tool Developer</strong> - I focused on building highly generic systems to support a wide range of content and enhance replayability, aiming to deliver a complete roguelike experience. I implemented all the stats, bonuses, penalties, and property modifiers that define the wishes."
+        },
         "src_type": "image",
         "src_link": "src/images/TwistedWishes.gif",
         "src_alt": "",
         "icon_link": "src/icons/TwistedWishes.png",
-        "icon_alt": "Twisted Wishes"
-    },
-    {
-        "title": "Already Dead",
-        "type": ["Unreal Engine"],
-        "team": "2 persons",
-        "duration": "3 months",
-        "description": ["This was my first project using Unreal Engine, developed in close collaboration with a game designer. It provided an opportunity to explore and acquire foundational knowledge of Blueprint.", "This is a third-person 3D puzzle game where dying is used to switch between two different worlds and advance through the levels."],
-        "src_type": "image",
-        "src_link": "src/images/AlreadyDead.gif",
-        "src_alt": "Already Dead gameplay in an animated image.",
-        "icon_link": "src/icons/AlreadyDead.svg",
-        "icon_alt": "Already Dead"
+        "icon_alt": "Twisted Wishes",
+        "links": {
+            "itch": "https://clemah.itch.io/twisted-wishes"
+        }
     },
     {
         "title": "Street Murder",
-        "type": ["Unreal Engine"],
-        "team": "6 persons",
+        "type": "unreal",
+        "state": "Game Jam",
         "duration": "48 hours",
-        "description": ["Street Murder is a stealth-action game created for the KISS Game Jam, in which you play as a serial killer who must deceive civilians and evade the police night after night to commit as many crimes as possible. The gameplay focuses on stealth, sound manipulation, and light management to create confusion and extend your freedom.",
-        "During this project, I explored AI behavior in depth and gained hands-on experience with Unreal Engine's AI framework."],
+        "description": {
+            "pitch": "Street Murder is a stealth–action game where you play as a serial killer who must deceive civilians and evade the police night after night to commit as many crimes as possible. The gameplay emphasizes stealth, sound manipulation, and light management, allowing players to create confusion and extend their freedom through strategic misdirection.",
+            "context": "This game was created for the KISS Game Jam 2024. Our team consisted of six members: two game designers, one artist, one technical artist, one other developer and me. We finished 5th out of 20 teams.",
+            "work": "<strong>Gameplay Developer</strong> - I focused on AI behavior and gained hands-on experience with Unreal Engine’s AI framework. I also implemented player actions, interactive systems, and integrated UI to support the overall gameplay experience."
+        },
         "src_type": "image",
         "src_link": "src/images/StreetMurder.gif",
         "src_alt": "Street Murder gameplay in an animated image.",
         "icon_link": "src/icons/StreetMurder.png",
-        "icon_alt": "Street Murder"
+        "icon_alt": "Street Murder",
+        "links": {
+            "itch": "https://thezarty.itch.io/street-murder"
+        }
     },
     {
-        "title": "Mob Survivor",
-        "type": ["Unreal Engine"],
-        "team": "1 person",
-        "duration": "2 months",
-        "description": ["This solo project, developed in Unreal Engine, is heavily inspired by Vampire Survivors. Its main purpose was to deepen my understanding of the engine's C++ side. All core mechanics are fully implemented and designed to be modular, allowing for future expansion. I also built an online leaderboard system to enable score comparison between players."],
+        "title": "Already Dead",
+        "type": "unreal",
+        "state": "Student Project",
+        "duration": "3 months",
+        "description": {
+            "pitch": "This is a third-person 3D puzzle game where dying and reviving allows players to switch between two worlds and progress through the levels.",
+            "context": "This was the first full game project developed in close collaboration with a game designer and the game experience lasts about one hour. Our team consisted of one game designer, one technical artist, and me.",
+            "work": "<strong>Developer</strong> - This first Unreal Engine project offered me an opportunity to explore and build foundational knowledge of the Unreal framework and Blueprint system. I focused on implementing core mechanics such as player movement, interaction systems, and basic debugging tools."
+        },
         "src_type": "image",
-        "src_link": "src/images/MobSurvivor.gif",
-        "src_alt": "Mob Survivor gameplay in an animated image",
-        "icon_link": "src/icons/MobSurvivor.png",
-        "icon_alt": "Mob Survivor"
+        "src_link": "src/images/AlreadyDead.gif",
+        "src_alt": "Already Dead gameplay in an animated image.",
+        "icon_link": "src/icons/AlreadyDead.png",
+        "icon_alt": "Already Dead",
+        "links": {
+            "itch": "",
+            "discord": "",
+            "download": ""
+        }
     },
     {
         "title": "Rope Simulation",
-        "type": ["Unreal Engine"],
-        "team": "1 person",
-        "duration": "1 year",
-        "description": ["For my final year project, I focused on the realistic simulation of a rope. I chose this topic for my thesis, which led me to dive deep into the inner workings of physics engines like Unreal’s. Through extensive research and study of existing literature, I gained a strong understanding of the subject and am now developing a fully custom physics system in my free time."],
+        "type": "unreal",
+        "state": "Master Thesis",
+        "duration": "2 years",
+        "description": {
+            "pitch": "The aim of this thesis was to simulate the behavior of a rope within Unreal Engine 5. The purpose of this simulation was to be integrated into our final-year project, <a onclick=\"goToSlide(1);\">Needle Eye</a>, where ropes serve as a core gameplay mechanic.",
+            "context": "This rope simulation was commended by the jury, and I now plan to release it as a public plugin on the Unreal Marketplace, as well as port it to other engines such as Unity and Godot.",
+            "work": "This work led me to explore the inner workings of physics engines, like Unreal. Through extensive research and study of existing literature, I gained a solid understanding of the subject and am now building a fully custom physics system in my free time."
+        },
         "src_type": "image",
         "src_link": "src/images/Memoire.png",
         "src_alt": "Cover page of my thesis on Rope Simulation",
         "icon_link": "src/icons/RopeSimulation.png",
-        "icon_alt": "Rope Simulation"
-    },
-    {
-        "title": "Catapultia",
-        "type": ["Unity"],
-        "team": "3 persons",
-        "duration": "2 weeks",
-        "description": ["This Unity project was developed in two weeks by a small team of three. It's a tower defense game with a twist: you control a catapult. The goal is to eliminate all incoming enemy waves using different types of projectiles, including explosive, bouncy, rock, and freezing shots.", "To succeed, you need to consider various parameters such as wind, launch angle, and the length of the catapult’s arm."],
-        "src_type": "image",
-        "src_link": "src/images/Catapultia.gif",
-        "src_alt": "Catapultia gameplay in an animated image",
-        "icon_link": "src/icons/Catapultia.png",
-        "icon_alt": "Catapultia"
+        "icon_alt": "Rope Simulation",
+        "links": {
+        }
     },
     {
         "title": "Gamble Gang",
-        "type": ["Table Game"],
-        "team": "3 persons",
-        "duration": "2 months",
-        "description": ["", "Although it’s not a video game, this project played an important role in deepening my understanding of game design. It taught me how crucial the player experience is. In fact, no matter how impressive or complex a game system may be, it means nothing if the player isn’t enjoying it."],
+        "type": "board",
+        "state": "Student Project",
+        "duration": "3 weeks",
+        "description": {
+            "pitch": "In this “push your luck” style game, players take on the roles of rival mafia bosses competing to control the city’s neighborhoods. Each turn, they roll dice to place their mobsters, extort cash, or drive out opponents. Players must decide whether to secure their earnings or risk everything for greater rewards at the risk of losing everything. The first to reach the required amount of money wins the game.",
+            "context": "In a small group of three students, our assignment was to modify two rules from the game “Can’t Stop!” in order to address design flaws in the original and create a fresh and enjoyable experience.",
+            "work": "<strong>Game Designer</strong> - I worked extensively on rule design and fine-tuning. Although it wasn’t a video game, this project played an important role in deepening my understanding of game design. It taught me how crucial the player experience is. In fact, no matter how impressive or complex a game system may be, it means nothing if the player isn’t enjoying it."
+        },
         "src_type": "youtube",
-        "src_link": "https://www.youtube.com/embed/eMRtcjX8C2M?si=GPA_hxtQ3eJ2Ee04",
+        "src_link": "https://www.youtube-nocookie.com/embed/eMRtcjX8C2M?si=GPA_hxtQ3eJ2Ee04",
         "src_alt": "Gamble Gang Presentation in French",
         "icon_link": "src/icons/GambleGang.png",
-        "icon_alt": "Gamble Gang"
+        "icon_alt": "Gamble Gang",
+        "links": {
+        }
     }
 ]

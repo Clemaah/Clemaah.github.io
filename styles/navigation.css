@@ -8,38 +8,55 @@ body.grabbing {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 20vh;
+    height: 22vh;
 }
 
 #menu ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2vw;
-    padding: 7vh 5vw 5vh;
+    flex-wrap: nowrap;
+    padding: 5vh 5vw;
+    transition: 0.4s all ease-in-out;
 }
 
 #menu li {
+    position: relative;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     aspect-ratio: 1 / 1;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 10px;
-    padding: 5px;
-    opacity: 0.5;
     text-align: center;
-    filter: grayscale(80%);
-    transition: 0.2s opacity ease-out, 0.2s filter ease-out, 0.2s transform ease-out;
+    opacity: 0.5;
+    overflow: hidden;
+    filter: grayscale(100%) brightness(100%);
+    transform: scale(0.75, 0.75);
+    transition-property: opacity, filter, transform;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     cursor: pointer;
 }
 
-#menu li.active, #menu li:hover {
+#menu li:hover, #menu li.active {
     opacity: 1;
-    filter: none;
-    transform: scale(1.1);
+    filter: brightness(100%);
+}
+
+#menu li:active {
+    top: 3px;
+}
+
+#menu li.active {
+    transform: scale(1, 1);
+    cursor: initial;
+}
+
+#menu li.active:active {
+    top: 0px;
 }
 
 #menu img {
@@ -110,5 +127,29 @@ body.grabbing {
     }
     100% {
         transform: translate(10%, -50%);
+    }
+}
+
+
+
+/* ---------- Responsive Design ----------- */
+@media (max-width: 1000px) {
+    .slide {
+        padding: 5vw 5vh;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    aside, article, iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    aside {
+        margin: 0 0 5vh;
+    }
+
+    #menu li.active {
+        transition-delay: 0.4s;
     }
 }

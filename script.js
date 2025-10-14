@@ -18,27 +18,69 @@ fetch('projects.json')
 .then(response => response.json())
 .then(projects => {
     projects.forEach(project => {
-        const section = document.createElement("section");
-        const figure = document.createElement("figure");
-        switch (project.src_type) {
-            case "youtube":
-                figure.innerHTML = `<iframe src="${project.src_link}" alt="${project.src_alt}" title="${project.src_alt}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+        let engine;
+        switch (project.type) {
+            case "unity":
+                engine = `<li class="unity"><img src="src/icons/Unity.svg" alt="Unity Logo" /><strong>Unity</strong></li>`;
+                break;
+            case "unreal":
+                engine = `<li class="unreal"><img src="src/icons/Unreal.svg" alt="Unreal Engine Logo" /><strong>Unreal</strong></li>`;
                 break;
             default:
-                figure.innerHTML = `<img src="${project.src_link}" alt="${project.src_alt}" />`;
+                engine = `<li class="board"><img src="src/icons/Board.svg" alt="Board Game Logo" /><strong>Board Game</strong></li>`;
 
         }
+
+        let links = `<ul class="links">`;
+        if(project.links.discord) {
+            links += `<li>
+                <a class="iconLink" draggable="false" href="${project.links.discord}" target="_blank" title="Discord"><span class="icon discord"></span></a></li>`;
+        }
+        if(project.links.itch) {
+            links += `<li>
+                <a class="iconLink" draggable="false" href="${project.links.itch}" target="_blank" title="Itch.io"><span class="icon itch"></span></a></li>`;
+        }
+        if(project.links.download) {
+            links += `<li>
+                <a class="iconLink" draggable="false" href="${project.links.download}" target="_blank" title="Download"><span class="icon download"></span></a></li>`;
+        }
+        links += `</ul>`;
+
+        let figure = "<figure>";
+        switch (project.src_type) {
+            case "youtube":
+                figure += `<iframe type="text/html" src="${project.src_link}" alt="${project.src_alt}" title="${project.src_alt}" frameborder="0"></iframe>`;
+                break;
+            default:
+                figure += `<img draggable="false" src="${project.src_link}" alt="${project.src_alt}" />`;
+        }
+        figure += "</figure>";
+
+        const section = document.createElement("section");
         section.className = "slide";
         section.innerHTML = `
-            <aside>${figure.innerHTML}</aside>
+            <aside>${figure}</aside>
             <article>
                 <h2>${project.title}</h2>
                 <ul class="projectInfos">
-                    <li>Engine : ${project.type}</li>
-                    <li>Time spent : ${project.duration}</li>
-                    <li>Team : ${project.team}</li>
+                    ${engine}
+                    <li class="state"><img src="src/icons/Tag.svg" alt="Tag" /><strong>${project.state}</strong></li>
+                    <li class="duration"><img src="src/icons/Hourglass.svg" alt="Duration" /><strong>${project.duration}</strong></li>
                 </ul>
-                <p>${project.description.join("</p><p>")}</p>
+                <div class="descriptionSection">
+                    <h3>Pitch</h3>
+                    <p>${project.description.pitch}</p>
+                </div>
+                <div class="descriptionSection">
+                    <h3>Context</h3>
+                    <p>${project.description.context}</p>
+                </div>
+                <div class="descriptionSection">
+                    <h3>My work</h3>
+                    <p>${project.description.work}</p>
+                </div>
+
+                ${links}
             </article>
         `;
         carousel.appendChild(section);
@@ -47,7 +89,7 @@ fetch('projects.json')
         i += 1;
         menuItem.dataset.index = i;
         menuItem.innerHTML = `
-            <img src="${project.icon_link}" alt="${project.icon_alt}" title="${project.icon_alt}" />
+            <img draggable="false" src="${project.icon_link}" alt="${project.icon_alt}" title="${project.icon_alt}" />
         `;
         menu.appendChild(menuItem);
     });
@@ -127,6 +169,14 @@ function updateMenu() {
     menuItems.forEach((item, idx) => {
         item.classList.toggle('active', idx === realIndex);
     });
+
+    if(document.querySelector('#menu ul').offsetWidth <= window.innerWidth) {
+        document.querySelector('#menu ul').style.transform = `translateX(0px)`;
+    }
+    else {
+        var translateX = -(realIndex + 1 - (totalSlides - 1) / 2) * document.querySelector('#menu li:first-child').offsetWidth;
+        document.querySelector('#menu ul').style.transform = `translateX(${translateX}px)`;
+    }
 }
 
 // === Swipe gestures ===
