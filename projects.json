@@ -113,6 +113,7 @@
         "icon_link": "src/icons/RopeSimulation.png",
         "icon_alt": "Rope Simulation",
         "links": {
+            "download": "src/RopeSimulationThesis.pdf"
         }
     },
     {
