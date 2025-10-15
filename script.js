@@ -42,7 +42,7 @@ fetch('projects.json')
         }
         if(project.links.download) {
             links += `<li>
-                <a class="iconLink" draggable="false" href="${project.links.download}" target="_blank" title="Download"><span class="icon download"></span></a></li>`;
+                <a class="iconLink" draggable="false" href="${project.links.download}" target="_blank" title="Download" download><span class="icon download"></span></a></li>`;
         }
         links += `</ul>`;
 

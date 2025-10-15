@@ -17,7 +17,7 @@
         "links": {
             "itch": "https://needle-eye.itch.io/needle-eye",
             "discord": "https://discord.gg/bPbKwvDsVH",
-            "download": "https://www.dropbox.com/scl/fi/0st1snax6bbr3nrd0ftcs/NeedleEye_V0.40.rar?rlkey=2d6vpm7wty147ntlt8nhxjov0&e=1&st=627j1vse&dl=0"
+            "download": "https://github.com/Clemaah/GamesDemo/blob/main/NeedleEye-0.1.40.zip"
         }
     },
     {
@@ -54,7 +54,8 @@
         "icon_link": "src/icons/TwistedWishes.png",
         "icon_alt": "Twisted Wishes",
         "links": {
-            "itch": "https://clemah.itch.io/twisted-wishes"
+            "itch": "https://clemah.itch.io/twisted-wishes",
+            "download": "https://github.com/Clemaah/GamesDemo/blob/main/TwistedWishes-1.1.zip"
         }
     },
     {
@@ -73,7 +74,8 @@
         "icon_link": "src/icons/StreetMurder.png",
         "icon_alt": "Street Murder",
         "links": {
-            "itch": "https://thezarty.itch.io/street-murder"
+            "itch": "https://thezarty.itch.io/street-murder",
+            "download": "https://github.com/Clemaah/GamesDemo/blob/main/StreetMurder-1.1.zip"
         }
     },
     {
@@ -92,9 +94,7 @@
         "icon_link": "src/icons/AlreadyDead.png",
         "icon_alt": "Already Dead",
         "links": {
-            "itch": "",
-            "discord": "",
-            "download": ""
+            "download": "https://github.com/Clemaah/GamesDemo/blob/main/AlreadyDead-1.0.zip"
         }
     },
     {
