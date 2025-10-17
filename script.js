@@ -174,7 +174,8 @@ function updateMenu() {
         document.querySelector('#menu ul').style.transform = `translateX(0px)`;
     }
     else {
-        var translateX = -(realIndex + 1 - (totalSlides - 1) / 2) * document.querySelector('#menu li:first-child').offsetWidth;
+        console.log((realIndex + 1 - (totalSlides - 1) / 2));
+        var translateX = -(realIndex + 1 - (totalSlides - 1) / 2 + 1) * document.querySelector('#menu li:first-child').offsetWidth;
         document.querySelector('#menu ul').style.transform = `translateX(${translateX}px)`;
     }
 }
